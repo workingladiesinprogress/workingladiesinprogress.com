@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Manrope';
+  }
+@media screen and (max-width: 430px) {
+    .contact-info {
+        flex-direction: column;
+    }
+  
+    .whatsapp-details {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+  
+    .icon-container {
+        flex-direction: column;
+    }
+  
+    .icon-placeholder {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+  
+    .links-wrapper {
+        flex-direction: column;
+    }
+  
+    .title-parent {
+        margin-bottom: 10px;
+    }
+  
+    .link-columns, .link-columns1, .link-columns2 {
+        flex: 1 0 100%; /* Full width columns */
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+  
+    .footer-content {
+        flex-direction: column;
+    }
+  
+    .footer-links {
+        margin-bottom: 20px;
+    }
+  }
+
+
+  .gg-menu-round {
+    box-sizing: border-box;
+    
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.gg-menu-round::before {
+    content: "";
+   display: block;
+   box-sizing: border-box;
+   position: absolute;
+   width: 15px;
+   height: 1px;
+   background: currentColor;
+   border-radius: 3px;
+   top: 12px;
+   left: 11px;
+   box-shadow: 0 15px 0, 0 8px 0
+}

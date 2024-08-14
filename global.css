@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Manrope';
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button-text: Inter;
+  --font-manrope: Manrope;
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --button-text-size: 14px;
+  --bold-size: 16px;
+  --font-size-3xl: 22px;
+  --body-big-size: 18px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-lgi: 19px;
+  --font-size-2xl: 21px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --white: #fff;
+  --color-darkslategray-100: #2c3244;
+  --onyx-base: #2d2d2d;
+  --midnight-base: #073b4c;
+  --color-darkslategray-200: #05293f;
+  --cloud-base: #fafcfe;
+  --midnight-300: #9cb1b7;
+  --color-black: #000;
+  --color-cornflowerblue: #0082cf;
+  --color-crimson-100: #ff4878;
+  --color-dimgray-100: #565b69;
+  --cornflower-1000: #5669cc;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-6xl: 25px;
+  --gap-mini: 15px;
+  --gap-base: 16px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-3xl: 22px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+  --gap-lgi: 19px;
+  --gap-13xl: 32px;
+  --gap-smi: 13px;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+  --padding-xl: 20px;
+  --padding-72xl: 91px;
+  --padding-40xl-9: 59.9px;
+  --padding-20xl: 39px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-3xl: 22px;
+  --padding-121xl: 140px;
+  --padding-2xl: 21px;
+  --padding-2xs: 11px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-xl: 20px;
+  --br-12xl-3: 31.3px;
+  --br-3xs: 10px;
+}
