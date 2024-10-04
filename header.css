@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+    
+  }
+  
+  body {
+    font-family: 'Manrope';
+  }
+.baradiv {
+    display: flex;
+}
+
+.manrope {
+    font-family: "Manrope";
+}
+
+.reacticon {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    z-index: 3;
+    width: 20%;
+}
+
+.professional-girl-sitting {
+    width: 100%;
+    height: auto;
+}
+
+.peoples {
+    display: flex;
+    flex-direction: row;
+}
+
+.peoplesimg {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.textsize {
+    font-family: 'Manrope';
+    font-size: 54px;
+   /*  font-weight: 800; */
+    /* line-height: 73.76px;
+    letter-spacing: -0.05em; */
+    text-align: left;
+    color: #2C3244;
+}
+
+.textsize1p p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #2C3244;
+}
+
+@media screen and (max-width: 1050px) {
+    .peoplesimg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .professional-girl-sitting{
+        width: 50%;
+    }
+    .baradiv {
+        flex-direction: column;
+    }
+    .peoplesimg {
+        width: 100%;
+    }
+    .mask-group-container{
+        width: 100%;
+        align-items: center;
+        /* text-align: center; */
+    }
+}
+@media screen and (max-width:990px) {
+    
+}
+@media screen and (max-width: 450px) {
+        /* .professional-girls {
+            width: 100%;
+        } */
+     /* .left{
+        margin-left: -3rem;
+     } */
+     .mask-group-icon5 {
+        position: absolute;
+        top: 1px; /* Add units for top */
+        left: 5px; /* Add units for left */
+        width: 100%; /* Increase the width to 100% */
+        height: auto; /* Maintain the aspect ratio */
+
+        text-align: left;
+      }
+   }
+
+   @media screen and (max-width: 1550px) {
+    .work__navbar-sign {
+      position: absolute ;
+      top: 3%;
+      right: 5%;
+  }
+    .professional-girl-sitting {
+        width: 70%;
+    }
+    .peoplesimg{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .noted{
+    margin-left: 50px;
+}
+.frame-wrapper1{
+    margin-left: -50px;
+    margin-top: -25%;
+}
+     .headerpage {
+      padding: 10px;
+    }
+  
+    .baradiv {
+      flex-direction: column;
+      align-items: center;
+    }
+    .frame-parent4 button {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+      }
+    
+      .frame-parent4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .left,
+    .right {
+      min-width: 100%;
+      text-align: center;
+    }
+  /*
+    .mask-group-icon5 {
+      width: 100%;
+      height: auto;
+      max-width: 100%; 
+    }
+  
+    .reacticon {
+      display: none; 
+    }
+  
+    
+  
+    .link-heading {
+      font-family: 'Manrope';
+    }
+  .link-heading-3-order-parent{
+    font-family: 'Manrope';
+    
+  }
+   
+  .frame-parent3{
+    padding-right: 5rem;
+  }
+    
+    
+    .peoples,
+    .professional-sitting {
+      margin-top: 20px;
+    }
+  
+    .peoplesimg,
+    .professional-girl-sitting {
+      width: 100%;
+      height: auto;
+    }
+    .frame-wrapper1  {
+        margin-top: -5px; 
+        padding-top: 0;
+        text-align: center;
+        margin-left: 10px; 
+      }
+      
+      .textsandbtns {
+        padding-left: 0px; 
+      } */
+      .textsize {
+        font-size: 25px;
+      }
+    
+      .textsize1p {
+        font-size: 14px;
+      }
+  }
+
+  

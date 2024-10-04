@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Manrope';
+  }
+
+
+.qualityservices {
+    padding: 5rem;
+    padding-bottom: 3rem;
+    text-align: center; 
+}
+
+.container {
+    padding: 0 1rem; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.left {
+    flex: 1;
+    text-align: left; 
+    margin-bottom: 1rem;
+}
+
+.right {
+    flex: 1;
+    text-align: left; 
+}
+
+.left h1 {
+    padding-top: 2rem;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: -0.03em;
+text-align: left;
+
+gap: 0px;
+opacity: 0px;
+color: #2C3244;
+    font-family: Manrope;
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+    line-height: 1.2; /* Improved line height for better readability */
+    margin-bottom: 1rem; /* Added spacing between sections */
+}
+
+.right p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    gap: 0px;
+    opacity: 0px;
+color: #565B69;        
+
+
+
+    font-family: Manrope;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #565B69;
+}
+
+/* Media Query for Tablet and Smaller Devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .left, .right {
+        flex: 1; /* Full width on smaller screens */
+        text-align: center; /* Center align text */
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .container {
+        margin-left: -5%;
+        margin-right: -5%;
+    }
+    .qualityservices{
+        padding: 15px;
+    }
+    .nextcomp h1{
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 0.05em;
+        word-spacing: 0.05em;
+    }
+    .left h1{
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 0.05em;
+        word-spacing: 0.05em;
+    }
+    .right p{
+        text-align: center;
+    }
+}
+
+
+
+
+.nextcomp{
+    
+    padding: 5rem;
+    padding-bottom: 6rem;
+top: 1632.97px;
+left: 387.2px;
+gap: 0px;
+opacity: 0px;
+justify-items: center;
+align-items:center;
+justify-content: center;
+
+}
+
+.prog{
+    
+    top: 1632.97px;
+    left: 618.2px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color:#565B69;
+
+    
+}
+.easier{
+    top: 1675.97px;
+    left: 387.2px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color:  #2C3244;
+    
+}

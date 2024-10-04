@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Manrope';
+  }
+.groupiicon{
+    width: 100%;
+    height: auto;
+}
+.vision {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+.cl{
+    background: #FBFBFB;
+
+}
+.nextcomp{
+    background: #FBFBFB;
+
+}
+.image {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.image img {
+    position: absolute;
+    top: 5;
+    left: 5;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.image-child {
+    width: 10%;
+    z-index: 1;
+}
+
+.image-item {
+    z-index: 2;
+}
+
+.image-inner {
+    z-index: 3;
+}
+
+.vector-icon1 {
+    z-index: 4;
+}
+.v1{
+    padding-right: 15rem;
+}
+.mask-group-icon6 {
+    width: 100%;
+}
+
+.frame-child3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.frame-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}

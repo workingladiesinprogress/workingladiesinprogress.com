@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.ttf'); /* Assuming the font file is in a 'fonts' folder */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.Vision {
+    width: 100%;
+    max-width: 1079.9px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texts {
+    width: 100%;
+    max-width: 524px;
+    gap: 32px;
+    opacity: 1;
+    padding-top: 5rem; /* Reduced padding from the top */
+}
+
+.mainhead {
+    width: 100%;
+    max-width: 388px;
+    gap: 13px;
+    opacity: 1;
+    flex: 1;
+    margin-top: 0; /* Ensure there's no extra margin above the heading */
+}
+
+.mainhead p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    opacity: 1;
+}
+
+.mainhead h2 {
+    font-family: Manrope;
+    font-size: 36px; /* Reduced heading size */
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    opacity: 1;
+}
+
+.para {
+    flex: 2;
+}
+
+.para p {
+    width: 100%;
+    max-width: 524px;
+    opacity: 1;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #565B69;
+}
+
+.line {
+    width: 100%;
+    max-width: 388px;
+    height: 0px;
+    gap: 0px;
+    border-top: 1px solid #D9D9D9;
+    opacity: 1;
+}
+
+.imagevision {
+    width: 100%;
+    max-width: 456.93px;
+    height: 556.2px;
+    gap: 0px;
+    opacity: 1;
+}
+
+/* Box styles for Consultancy and Services */
+.service-types, .service-types1 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for both */
+    padding: 20px; /* Inner padding for the boxes */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    margin-top: 10px; /* Reduced margin from the top of the box */
+    border: 2px solid transparent; /* Transparent border to maintain spacing */
+    min-height: 500px; 
+
+    
+}
+
+/* Margin adjustments for headings */
+.service-name h3 {
+    margin-top: 0; /* Remove margin from the top of the consultancy heading */
+    margin-bottom: 10px; /* Adjust bottom margin as needed */
+}
+
+.services-parent h3 {
+    margin-top: 0; /* Remove margin from the top of the services heading */
+    margin-bottom: 10px; /* Adjust bottom margin as needed */
+}
+
+
+
+
+
+
+/* Custom styles for bullet points and buttons */
+.normal-text li {
+    font-weight: normal; /* Make text non-bold */
+    font-family: Manrope; /* Apply consistent font */
+    font-size: 16px; /* Adjust size as needed */
+    line-height: 2; /* Increased line spacing between list items */
+    color: #333; /* Customize color */
+    list-style-type: disc; /* Default bullet points */
+    margin-left: 30px; /* Increased space for indentation */
+
+    
+}
+
+/* Bullet points aligned under heading */
+.consultancy .normal-text,
+.services2 .normal-text {
+    margin-left: 50px; /* Further increased indentation under the headings */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+/* Appointment button styling */
+.appointment-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Inner padding for the button */
+    margin-top: 20px; /* Space above the button */
+    border: 2px solid #007BFF; /* Solid blue border for the button */
+    background-color: transparent; /* Transparent background */
+    color: #007BFF; /* Blue text initially */
+    text-decoration: none;
+    font-size: 16px; /* Font size */
+    font-family: Manrope; /* Font family */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Make button take full width */
+    max-width: 200px; /* Limit the width if necessary */
+    align-self: flex-start; /* Align button to the start of the flex container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.appointment-btn:hover {
+    background-color: #007BFF; /* Blue background on hover */
+    color: white; /* White text on hover */
+    border-color: #007BFF; /* Blue border on hover */
+}
+
+
+.icon-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    gap: 10px; /* Space between each contact */
+}
+
+.whatsapp-contact1 {
+    display: flex;
+    align-items: left; /* Align icon and text vertically */
+    flex-direction: row;
+}
+
+.whatsapp-icon {
+    margin-right: 8px; /* Space between icon and number */
+}
+
+.a a {
+    text-decoration: none; /* Remove underline from links */
+    color: #e1e3e5; /* Set link color */
+    font-size: 16px; /* Set font size */
+}
+
+/* Optional hover effect */
+.a a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+@media screen and (max-width: 768px) {
+    .Vision {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .group-icon {
+        width: 100%;
+    }
+    .texts {
+        padding: 0rem;
+        padding-top: -5rem;
+    }
+    .texts1 {
+        padding-top: -5rem;
+    }
+    .mainhead, .para {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 1rem;
+    }
+    .mainhead h2 {
+        font-size: 36px; /* Example adjustment for smaller screens */
+    }
+    .groupiicon {
+        width: 100%;
+    }
+    .texts1 {
+        padding-top: -5rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .mainhead, .para {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 1rem;
+    }
+    .imagevision {
+        margin-left: 2rem;
+    }
+    .group-icon {
+        width: 50%;
+    }
+    .a a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .whatsapp-contact1 {
+        flex-direction: column; /* Stack icon and text on top of each other */
+        align-items: flex-start;
+    }
+
+    .whatsapp-icon {
+        margin-bottom: 5px; /* Add space between icon and text when stacked */
+    }
+
+    .a {
+        width: 100%; /* Ensure the link takes up full width */
+    }
+  
+}
+
+
