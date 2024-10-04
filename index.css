@@ -2877,6 +2877,7 @@ body {
   .services2 {
     font-size: var(--font-size-5xl);
     line-height: 29px;
+    
   }
   .person-per-training {
     font-size: var(--body-big-size);
@@ -3026,4 +3027,5 @@ body {
     line-height: 20px; 
     padding: 4px; 
   }
+  
 }
